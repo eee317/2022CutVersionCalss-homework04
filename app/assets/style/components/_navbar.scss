@@ -40,6 +40,17 @@ display: none;
   }
 }
 }
+@include big-mobile {
+  .navbar {
+    ul {
+      margin-right: -8px;
+    }
+    a {
+      font-size: 16px;
+      padding: 12px 8px;
+    }
+  }
+}
 @include mobile {
   .navbar {
     .icon-menu {

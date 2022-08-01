@@ -54,6 +54,7 @@ footer {
     padding: 0px 24px;
   }
 }
+
 @include ipad {
   .imgs {
     margin-right: -8px;
@@ -82,4 +83,28 @@ footer {
   .footer-end {
     padding-bottom: 40px;
   }
+}
+@include big-mobile {
+  .imgs {
+    margin-right: -4px;
+    img {
+      margin: 0px 4px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .footer-list {
+    ul {
+      margin-left: -4px;
+    }
+    li {
+      padding: 0px 4px;
+    }
+  }
+}
+@include mobile {
+  .footer-list {
+    display: none;
+  }
+  
 }
