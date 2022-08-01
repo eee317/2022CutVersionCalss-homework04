@@ -2,9 +2,7 @@ footer {
   padding-top: 60px;
   font-family: 'Noto Sans TC';
 }
-hr {
-  margin: 0px;
-}
+
 .footer-list {
   display: flex;
   justify-content:space-between;
@@ -54,5 +52,34 @@ hr {
   }
   a {
     padding: 0px 24px;
+  }
+}
+@include ipad {
+  .imgs {
+    margin-right: -8px;
+    img {
+      margin: 0px 8px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  footer {
+    padding-top: 56px;
+  }
+  .footer-list {
+    ul {
+      margin-left: -12px;
+    }
+    li {
+      padding: 0px 12px;
+    }
+  }
+  .footer-connect {
+    h5 {
+      font-size: 36px;
+    }
+  }
+  .footer-end {
+    padding-bottom: 40px;
   }
 }
