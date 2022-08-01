@@ -1,0 +1,75 @@
+@mixin hover-color {
+  background-color: $primary-text;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+ul {
+  display: flex;
+  margin-right: -32px;
+}
+a {
+  font-size: 20px;
+  padding: 12px 32px;
+  &:hover {
+    @include hover-color();
+  }
+}
+.icon-menu {
+  color: #fff;
+  display: none;
+  font-size: 40px;
+}
+img {
+  width: 80px;
+  height: 72px;
+  object-fit: contain;
+}
+}
+.mobile-nav-list {
+display: none;
+}
+@include ipad {
+.navbar {
+  ul {
+    margin-right: -12px;
+  }
+  a {
+    padding: 12px;
+  }
+}
+}
+@include mobile {
+.navbar {
+  .icon-menu {
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+}
+.mobile-nav-list {
+  max-height: 0px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.8s;
+  li {
+    text-align: center;
+    width: 50%;
+  }
+  a {
+    display: block;
+    padding: 12px 0px;
+    font-size: 16px;
+    &:hover {
+      @include hover-color();
+    }
+  }
+}
+.mobile-nav-list.active {
+  max-height: 100%;
+}
+}
