@@ -1,0 +1,58 @@
+footer {
+  padding-top: 60px;
+  font-family: 'Noto Sans TC';
+}
+hr {
+  margin: 0px;
+}
+.footer-list {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  ul {
+    display: flex;
+    margin-left: -24px;
+  }
+  li {
+    padding: 0px 24px;
+  }
+}
+.imgs {
+  margin-right: -16px;
+  img {
+    margin: 0px 16px;
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.footer-connect {
+  margin-top: 35px;
+  margin-bottom: 32px;
+  a {
+    display: flex;
+    align-items: center;
+  }
+  h5 {
+    font-size: 54px;
+    font-weight: 400;
+  }
+}
+.icon-call, .icon-email {
+  font-size: 48px;
+  font-weight: 900;
+  margin-right: 22px;
+}
+.footer-end {
+  padding: 32px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    display: flex;
+    margin-right: -24px;
+  }
+  a {
+    padding: 0px 24px;
+  }
+}
