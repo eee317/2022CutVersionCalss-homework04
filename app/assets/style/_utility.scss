@@ -1,6 +1,9 @@
 .bg-color-primary {
   background-color: $primary;
 }
+.bg-color-success {
+  background-color: $success;
+}
 .contener {
   max-width: 1296px;
   padding:0px 12px;
@@ -22,4 +25,35 @@
 }
 .mb-8px {
   margin-bottom: 8px;
+}
+.text-primary {
+  color: $primary-text;
+}
+.text-primary-brigh {
+  color: $primary
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.flex {
+  display: flex;
+}
+.jc-end {
+  justify-content: flex-end;
+}
+.jc-center {
+  justify-content: center;
+}
+.fd-column {
+  flex-direction: column;
+}
+.at-end {
+  align-items: flex-end;
+}
+.button {
+  padding: 6px 12px;
+  color: #fff;
 }

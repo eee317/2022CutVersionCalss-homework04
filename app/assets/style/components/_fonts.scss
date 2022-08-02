@@ -1,0 +1,28 @@
+.h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+.h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.h3 {
+  font-size: 36px;
+}
+.h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.text-italic {
+  font-style: italic;
+}
+
+@include mobile {
+  .h1-s {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .h3-s {
+    font-size: 16px;
+  }
+}
