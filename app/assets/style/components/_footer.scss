@@ -9,14 +9,13 @@ footer {
   align-items: center;
   ul {
     display: flex;
-    margin-left: -24px;
+    // margin-left: -24px;
   }
   li {
     padding: 0px 24px;
   }
 }
 .imgs {
-  margin-right: -16px;
   img {
     display: inline-block;
     margin: 0px 16px;
@@ -32,7 +31,7 @@ footer {
     display: flex;
     align-items: center;
   }
-  h5 {
+  p {
     font-size: 54px;
     font-weight: 400;
   }
@@ -47,9 +46,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // margin-right: -12px;
   ul {
     display: flex;
-    margin-right: -24px;
   }
   a {
     padding: 0px 24px;
@@ -58,7 +57,7 @@ footer {
 
 @include ipad {
   .imgs {
-    margin-right: -8px;
+    // margin-right: -8px;
     img {
       margin: 0px 8px;
       width: 40px;
@@ -70,14 +69,15 @@ footer {
   }
   .footer-list {
     ul {
-      margin-left: -12px;
+      // margin-left: -12px;
     }
     li {
       padding: 0px 12px;
     }
   }
+  
   .footer-connect {
-    h5 {
+    p {
       font-size: 36px;
     }
   }
@@ -87,7 +87,7 @@ footer {
 }
 @include big-mobile {
   .imgs {
-    margin-right: -4px;
+    // margin-right: -4px;
     img {
       margin: 0px 4px;
       width: 30px;
@@ -96,7 +96,7 @@ footer {
   }
   .footer-list {
     ul {
-      margin-left: -4px;
+      // margin-left: -4px;
     }
     li {
       padding: 0px 4px;
@@ -107,5 +107,5 @@ footer {
   .footer-list {
     display: none;
   }
-  
 }
+

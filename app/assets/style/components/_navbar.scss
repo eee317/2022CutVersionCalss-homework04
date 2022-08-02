@@ -5,12 +5,10 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-right: -32px;
 ul {
   display: flex;
 }
 a {
-  display: block;
   font-size: 20px;
   padding: 12px 32px;
   &:hover {
@@ -33,7 +31,6 @@ display: none;
 }
 @include ipad {
 .navbar {
-  margin-right: -12px;
   
   a {
     padding: 12px;
@@ -42,7 +39,6 @@ display: none;
 }
 @include big-mobile {
   .navbar {
-    margin-right: -8px;
     a {
       font-size: 16px;
       padding: 12px 8px;
