@@ -4,6 +4,9 @@
 .bg-color-success {
   background-color: $success;
 }
+.bg-color-white {
+  background-color: #fff;
+}
 .contener {
   max-width: 1296px;
   padding:0px 12px;
@@ -20,11 +23,17 @@
 .border-right {
   border-right: 1px solid #fff;
 }
+.mb-8px {
+  margin-bottom: 8px;
+}
+.mb-48px {
+  margin-bottom: 48px;
+}
 .text-white {
   color: #fff;
 }
-.mb-8px {
-  margin-bottom: 8px;
+.text-grey {
+  color: #707070;
 }
 .text-primary {
   color: $primary-text;

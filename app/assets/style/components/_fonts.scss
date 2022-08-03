@@ -16,7 +16,13 @@
 .text-italic {
   font-style: italic;
 }
-
+.title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
 @include mobile {
   .h1-s {
     font-size: 24px;
