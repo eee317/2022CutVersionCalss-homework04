@@ -1,3 +1,7 @@
+# pages link
+- [首頁](https://eee317.github.io/2022CutVersionCalss-homework04/)
+- [常見問題](https://eee317.github.io/2022CutVersionCalss-homework04/question.html)
+
 # 網頁切版直播班 Gulp 範例
 
 > 使用該專案 Gulp 時，就可以不用使用其他編譯工具編譯 SCSS 或是 JavaScript 囉。
