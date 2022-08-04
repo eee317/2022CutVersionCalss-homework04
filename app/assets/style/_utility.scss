@@ -12,6 +12,11 @@
   padding:0px 12px;
   margin: 0 auto;
 }
+.contener-636px {
+  max-width: 636px;
+  padding:0px 12px;
+  margin: 0 auto;
+}
 @include ipad {
   .contener {
     padding: 0px 36px;
@@ -23,8 +28,17 @@
 .border-right {
   border-right: 1px solid #fff;
 }
+.pb-8px {
+  padding-bottom: 8px;
+}
 .mb-8px {
   margin-bottom: 8px;
+}
+.mb-16px {
+  margin-bottom: 16px;
+}
+.mb-24px {
+  margin-bottom: 24px;
 }
 .mb-48px {
   margin-bottom: 48px;
@@ -56,6 +70,9 @@
 .jc-end {
   justify-content: flex-end;
 }
+.jc-sb {
+  justify-content: space-between;
+}
 .jc-center {
   justify-content: center;
 }
@@ -68,4 +85,10 @@
 .button {
   padding: 6px 12px;
   color: #fff;
+}
+.display-in-block {
+  display: inline-block;
+}
+.display-block {
+  display: block;
 }
