@@ -31,6 +31,9 @@
 .pb-8px {
   padding-bottom: 8px;
 }
+.pl-16px {
+  padding-left: 16px;
+}
 .mb-8px {
   margin-bottom: 8px;
 }
@@ -39,6 +42,9 @@
 }
 .mb-24px {
   margin-bottom: 24px;
+}
+.mb-32px {
+  margin-bottom: 32px;
 }
 .mb-48px {
   margin-bottom: 48px;
@@ -94,4 +100,7 @@
 }
 .mouse-cur-def {
   cursor: default;
+}
+.border-left-red {
+  border-left: 8px solid $primary;
 }

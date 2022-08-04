@@ -1,0 +1,18 @@
+.questions-area {
+  padding-top: 96px;
+  padding-bottom: 80px;
+}
+.questions {
+  max-width: 856px;
+}
+@include ipad {
+  .questions-area {
+    padding-top: 80px;
+  }
+}
+@include mobile {
+  .questions-area {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
