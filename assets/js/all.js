@@ -18,4 +18,15 @@ $(document).ready(function () {
     $('.icon-menu').removeClass('none');
   });
 });
+"use strict";
+
+var checkText = document.querySelector('.checkbox-text');
+var inputCheckbox = document.querySelector('#consent');
+checkText.addEventListener('click', function (e) {
+  if (inputCheckbox.checked === false) {
+    inputCheckbox.checked = true;
+  } else {
+    inputCheckbox.checked = false;
+  }
+});
 //# sourceMappingURL=all.js.map

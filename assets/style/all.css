@@ -64,17 +64,30 @@ a {
   color: #fff; }
 
 hr {
-  margin: 0px; }
+  margin: 0px;
+  background-color: #fff;
+  border-width: 0.5px; }
 
 .bg-color-primary {
   background-color: #AA0601; }
+
+.bg-color-success {
+  background-color: #FBF2F2; }
+
+.bg-color-white {
+  background-color: #fff; }
 
 .contener {
   max-width: 1296px;
   padding: 0px 12px;
   margin: 0 auto; }
 
-@media (max-width: 768px) {
+.contener-636px {
+  max-width: 636px;
+  padding: 0px 12px;
+  margin: 0 auto; }
+
+@media (max-width: 992px) {
   .contener {
     padding: 0px 36px; } }
 
@@ -84,11 +97,131 @@ hr {
 .border-right {
   border-right: 1px solid #fff; }
 
-.text-white {
-  color: #fff; }
+.pb-8px {
+  padding-bottom: 8px; }
+
+.pl-16px {
+  padding-left: 16px; }
 
 .mb-8px {
   margin-bottom: 8px; }
+
+.mb-16px {
+  margin-bottom: 16px; }
+
+.mb-24px {
+  margin-bottom: 24px; }
+
+.mb-32px {
+  margin-bottom: 32px; }
+
+.mb-48px {
+  margin-bottom: 48px; }
+
+.p-bt-80px {
+  padding: 80px 0px; }
+
+.text-white {
+  color: #fff; }
+
+.text-grey {
+  color: #707070; }
+
+.text-primary {
+  color: #650300; }
+
+.text-primary-brigh {
+  color: #AA0601; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.jc-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.fd-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.at-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.button {
+  padding: 6px 12px;
+  color: #fff; }
+
+.display-in-block {
+  display: inline-block; }
+
+.display-block {
+  display: block; }
+
+.mouse-cur-def {
+  cursor: default; }
+
+.border-left-red {
+  border-left: 8px solid #AA0601; }
+
+.h1 {
+  font-size: 64px;
+  font-weight: bold; }
+
+.h2 {
+  font-size: 48px;
+  font-weight: bold; }
+
+.h3 {
+  font-size: 36px; }
+
+.h4 {
+  font-size: 24px;
+  font-weight: bold; }
+
+.p-20px {
+  font-size: 20px; }
+
+.text-italic {
+  font-style: italic; }
+
+.title {
+  font-size: 48px;
+  font-weight: bold; }
+
+.bold {
+  font-weight: bold; }
+
+@media (max-width: 498px) {
+  .h1-s {
+    font-size: 24px;
+    font-weight: bold; }
+  .h3-s {
+    font-size: 16px; }
+  .p-20px-s {
+    font-size: 16px; } }
 
 .navbar {
   display: -webkit-box;
@@ -99,18 +232,18 @@ hr {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  margin-right: -32px; }
+          align-items: center; }
   .navbar ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
   .navbar a {
-    display: block;
     font-size: 20px;
     padding: 12px 32px; }
     .navbar a:hover {
-      background-color: #650300; }
+      color: #efcbcb; }
+  .navbar .img-p-0 {
+    padding: 0px; }
   .navbar .icon-menu {
     color: #fff;
     display: none;
@@ -124,18 +257,14 @@ hr {
 .mobile-nav-list {
   display: none; }
 
-@media (max-width: 768px) {
-  .navbar {
-    margin-right: -12px; }
-    .navbar a {
-      padding: 12px; } }
+@media (max-width: 992px) {
+  .navbar a {
+    padding: 12px; } }
 
 @media (max-width: 619px) {
-  .navbar {
-    margin-right: -8px; }
-    .navbar a {
-      font-size: 16px;
-      padding: 12px 8px; } }
+  .navbar a {
+    font-size: 16px;
+    padding: 12px 8px; } }
 
 @media (max-width: 498px) {
   .navbar .icon-menu {
@@ -162,7 +291,7 @@ hr {
       padding: 12px 0px;
       font-size: 16px; }
       .mobile-nav-list a:hover {
-        background-color: #650300; }
+        color: #efcbcb; }
   .mobile-nav-list.active {
     max-height: 100%;
     -webkit-transition: all 0.8s;
@@ -192,18 +321,18 @@ footer {
   .footer-list ul {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    margin-left: -24px; }
+    display: flex; }
   .footer-list li {
     padding: 0px 24px; }
 
-.imgs {
-  margin-right: -16px; }
-  .imgs img {
-    display: inline-block;
-    margin: 0px 16px;
-    width: 48px;
-    height: 48px; }
+.imgs img {
+  display: inline-block;
+  margin: 0px 16px;
+  width: 48px;
+  height: 48px; }
+
+.mobile-footer-addImgs-imgs {
+  display: none; }
 
 .footer-connect {
   margin-top: 35px;
@@ -215,7 +344,7 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .footer-connect h5 {
+  .footer-connect p {
     font-size: 54px;
     font-weight: 400; }
 
@@ -238,43 +367,357 @@ footer {
   .footer-end ul {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    margin-right: -24px; }
+    display: flex; }
   .footer-end a {
     padding: 0px 24px; }
 
-@media (max-width: 768px) {
-  .imgs {
-    margin-right: -8px; }
-    .imgs img {
-      margin: 0px 8px;
-      width: 40px;
-      height: 40px; }
+@media (max-width: 992px) {
+  .imgs img {
+    margin: 0px 8px;
+    width: 40px;
+    height: 40px; }
   footer {
     padding-top: 56px; }
-  .footer-list ul {
-    margin-left: -12px; }
   .footer-list li {
     padding: 0px 12px; }
-  .footer-connect h5 {
+  .footer-connect p {
     font-size: 36px; }
   .footer-end {
     padding-bottom: 40px; } }
 
 @media (max-width: 619px) {
-  .imgs {
-    margin-right: -4px; }
-    .imgs img {
-      margin: 0px 4px;
-      width: 30px;
-      height: 30px; }
-  .footer-list ul {
-    margin-left: -4px; }
+  .imgs img {
+    margin: 0px 4px;
+    width: 30px;
+    height: 30px; }
   .footer-list li {
-    padding: 0px 4px; } }
+    padding: 0px 4px; }
+  footer {
+    padding-top: 24px; }
+  .footer-end {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-top: 16px;
+    padding-bottom: 24px; }
+    .footer-end ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+    .footer-end a {
+      padding: 4px 0px; }
+    .footer-end p {
+      padding-bottom: 4px; } }
 
 @media (max-width: 498px) {
   .footer-list {
-    display: none; } }
+    display: none; }
+  .footer-connect {
+    margin-top: 0px;
+    margin-bottom: 24px; }
+    .footer-connect p {
+      font-size: 26px; }
+  .icon-call, .icon-email {
+    font-size: 24px; }
+  .mobile-footer-addImgs-imgs {
+    display: inline-block; }
+  .mobile-footer-addImgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+
+.home-header {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");
+  background-size: cover;
+  background-position: 70% 0; }
+  .home-header .button {
+    font-size: 20px; }
+
+.home-header-heig {
+  height: 787px; }
+
+.home-area-2 span {
+  color: #650300;
+  font-size: 100px; }
+
+.home-area-2 ul {
+  margin-top: 24px;
+  gap: 24px; }
+
+.home-area-2 li {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.home-area-2 h4 {
+  margin-top: 16px;
+  margin-bottom: 8px; }
+
+.home-area-3 img {
+  margin-bottom: 8px; }
+
+.home-area-3 ul {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 24px; }
+
+.home-area-3 li {
+  width: 33%; }
+
+.home-area-4 {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true"); }
+  .home-area-4 .home-area-4-height {
+    height: 608px; }
+  .home-area-4 ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .home-area-4 li {
+    width: 50%; }
+  .home-area-4 p {
+    padding: 8px 0px; }
+  .home-area-4 .bg-img-1 {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    height: 240px; }
+  .home-area-4 .bg-img-2 {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    height: 240px; }
+
+.home-area-5 .home5-bg-img-1 {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-1.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  height: 306px;
+  border-radius: 4px 4px 0px 0px; }
+
+.home-area-5 .home5-bg-img-2 {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-2.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  height: 306px;
+  border-radius: 4px 4px 0px 0px; }
+
+.home-area-5 .home5-bg-img-3 {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-3.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  height: 306px;
+  border-radius: 4px 4px 0px 0px; }
+
+.home-area-5 .home5-bg-img-4 {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-4.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  height: 306px;
+  border-radius: 4px 4px 0px 0px; }
+
+.home-area-5 ul {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 24px; }
+
+.home-area-5 li {
+  -webkit-box-shadow: 0px 0px 7px rgba(126, 126, 126, 0.7);
+          box-shadow: 0px 0px 7px rgba(126, 126, 126, 0.7);
+  width: 25%;
+  border-radius: 4px; }
+
+.home-area-5 .feedback-area {
+  height: 205px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.home-form-area input[type=text], .home-form-area textarea {
+  border: 1px solid #000;
+  width: 100%;
+  padding: 6px 12px; }
+  .home-form-area input[type=text]::-webkit-input-placeholder, .home-form-area textarea::-webkit-input-placeholder {
+    color: #000;
+    opacity: 0.2; }
+  .home-form-area input[type=text]::-moz-placeholder, .home-form-area textarea::-moz-placeholder {
+    color: #000;
+    opacity: 0.2; }
+  .home-form-area input[type=text]:-ms-input-placeholder, .home-form-area textarea:-ms-input-placeholder {
+    color: #000;
+    opacity: 0.2; }
+  .home-form-area input[type=text]::-ms-input-placeholder, .home-form-area textarea::-ms-input-placeholder {
+    color: #000;
+    opacity: 0.2; }
+  .home-form-area input[type=text]::placeholder, .home-form-area textarea::placeholder {
+    color: #000;
+    opacity: 0.2; }
+  .home-form-area input[type=text]:focus, .home-form-area textarea:focus {
+    outline: none;
+    border: 2px solid #AA0601; }
+
+.home-form-area .checkbox-area {
+  position: relative;
+  display: inline-block; }
+  .home-form-area .checkbox-area input:checked + label {
+    background: #AA0601; }
+  .home-form-area .checkbox-area input:checked + label::after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 4px;
+    width: 5px;
+    height: 12px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg); }
+
+.home-form-area input[type=checkbox] {
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-bottom: 4px;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 4px;
+  width: 22px;
+  height: 22px; }
+
+.home-form-area label[for=consent] {
+  margin-top: -1px;
+  margin-bottom: 4px;
+  color: red;
+  position: absolute;
+  left: 2px;
+  top: 0;
+  z-index: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px; }
+
+.home-form-area textarea {
+  width: 100%;
+  resize: none; }
+
+@media (max-width: 992px) {
+  .home-area-2 ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .home-area-2 li {
+    width: 47%; }
+  .home-area-3 img {
+    max-width: 336px; }
+  .home-area-3 ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .home-area-3 li {
+    width: 100%; }
+  .home-area-4 {
+    height: 960px; }
+    .home-area-4 ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      gap: 24px; }
+    .home-area-4 li {
+      width: 100%; }
+  .home-area-5 ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .home-area-5 li {
+    width: 47.5%;
+    gap: 0px; } }
+
+@media (max-width: 619px) {
+  .home-area-2 li {
+    width: 100%; }
+  .home-area-4 .bg-img-1 {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1-sm.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    height: 240px; }
+  .home-area-4 .bg-img-2 {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2-sm.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    height: 240px; }
+  .home-area-5 li {
+    width: 100%; } }
+
+@media (max-width: 498px) {
+  .home-header-heig {
+    height: 396px; }
+  .home-header .button {
+    font-size: 20px; }
+  .home-area-3 {
+    padding: 40px 0px; }
+    .home-area-3 img {
+      max-width: 100%; } }
+
+.questions-area {
+  padding-top: 96px;
+  padding-bottom: 80px; }
+
+.questions {
+  max-width: 856px; }
+
+@media (max-width: 992px) {
+  .questions-area {
+    padding-top: 80px; } }
+
+@media (max-width: 498px) {
+  .questions-area {
+    padding-top: 40px;
+    padding-bottom: 40px; } }
+
+.mr-0.mr-0 {
+  margin-right: 0px; }
+
+.ml-0.ml-0 {
+  margin-left: 0px; }
+
+.pl-0.pl-0 {
+  padding-left: 0px; }
+
+.pr-0.pr-0 {
+  padding-right: 0px; }
 
 /*# sourceMappingURL=all.css.map */

@@ -15,14 +15,17 @@
 <body>
   <nav class="bg-color-primary">
     <div class="contener navbar">
-      <img class="nav-img"
-        src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true"
-        alt="logo">
+      <a class="img-p-0" href="index.html">
+        <img
+        class="nav-img"
+          src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true"
+          alt="logo">
+      </a>
       <ul>
         <li><a href="#">系列鏡框</a></li>
         <li><a href="#">門市據點</a></li>
         <li><a href="#">部落格</a></li>
-        <li><a href="#">常見問題</a></li>
+        <li><a href="question.html" class="pr-0">常見問題</a></li>
       </ul>
       <span class="material-symbols-outlined icon-menu">
         menu
@@ -32,59 +35,224 @@
       <li class="border-top border-right"><a href="#">系列鏡框</a></li>
       <li class="border-top"><a href="#">門市據點</a></li>
       <li class="border-top border-right"><a href="#">部落格</a></li>
-      <li class="border-top"><a href="#">常見問題</a></li>
+      <li class="border-top"><a href="question.html">常見問題</a></li>
     </ul>
   </nav>
 
 
   <main>
-  <h1>
-    這是一段話
-  </h1>
+  <header class="home-header">
+    <div class="contener flex jc-center fd-column at-end home-header-heig">
+      <h3 class="h3 h3-s text-primary">Promise-Desert 2020 早春系列</h3>
+      <h1 class="h1 h1-s text-primary text-right">看得清，才能看得遠</h1>
+      <div class="button bg-color-primary">立即購買</div>
+    </div>
+  </header>
+  <section class="bg-color-success home-area-2 p-bt-80px">
+    <div class="contener">
+      <h2 class="h2 text-primary text-center">用專業的心，做專業的事</h2>
+      <ul class="flex">
+        <li>
+          <span class="material-symbols-outlined">
+            paid
+          </span>
+          <h4 class="h4 text-primary text-center">單一價格</h4>
+          <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+        </li>
+        <li>
+          <span class="material-symbols-outlined">
+            schedule
+          </span>
+          <h4 class="h4 text-primary text-center">20 分鐘即可取件</h4>
+          <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+        </li>
+        <li>
+          <span class="material-symbols-outlined">
+            favorite
+          </span>
+          <h4 class="h4 text-primary text-center">安心售後服務</h4>
+          <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+        </li>
+        <li>
+          <span class="material-symbols-outlined">
+            voicemail
+          </span>
+          <h4 class="h4 text-primary text-center">關於鏡片</h4>
+          <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="home-area-3 contener p-bt-80px">
+    <h2 class="h2 text-primary text-center mb-48px">經典系列鏡框</h2>
+    <ul class="flex text-center text-italic text-primary-brigh contener">
+      <li>
+        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-1.png?raw=true"
+          alt="OPTICAL">
+        <p class="title">OPTICAL</p>
+      </li>
+      <li>
+        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-2.png?raw=true"
+          alt="SUNGLASSES">
+        <p class="title">SUNGLASSES</p>
+      </li>
+      <li>
+        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-3.png?raw=true"
+          alt="FUNCTIONAL">
+        <p class="title">FUNCTIONAL</p>
+      </li>
+    </ul>
+  </section>
+  <section class="home-area-4">
+    <div class="contener home-area-4-height p-bt-80px">
+      <h2 class="h2 text-white text-center mb-48px">聯名設計鏡框</h2>
+      <ul class="contener flex text-center text-italic text-primary-brigh">
+        <li>
+          <div class="bg-img-1"></div>
+          <p class="title bg-color-white">DOUBLE A+</p>
+        </li>
+        <li>
+          <div class="bg-img-2"></div>
+          <p class="title bg-color-white">YOUTH</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="home-area-5 contener p-bt-80px">
+    <h2 class="h2 text-primary text-center mb-48px">顧客推薦</h2>
+    <ul class="flex contener">
+      <li>
+        <div class="home5-bg-img-1"></div>
+        <div class="feedback-area">
+          <div>
+            <p class="feedback-title bold mb-8px">Jessy</p>
+            <p class="feedback-text">眼鏡品質優良，下次還會想來這邊購買！</p>
+          </div>
+          <p class="text-grey">2021/06/20</p>
+        </div>
+      </li>
+      <li>
+        <div class="home5-bg-img-2"></div>
+        <div class="feedback-area">
+          <div>
+            <p class="feedback-title bold mb-8px">凱倫</p>
+            <p class="feedback-text">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+          </div>
+          <p class="text-grey">2021/04/18</p>
+        </div>
+      </li>
+      <li>
+        <div class="home5-bg-img-3"></div>
+        <div class="feedback-area">
+          <div>
+            <p class="feedback-title bold mb-8px">悠悠</p>
+            <p class="feedback-text">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+          </div>
+          <p class="text-grey">2020/12/25</p>
+        </div>
+      </li>
+      <li>
+        <div class="home5-bg-img-4"></div>
+        <div class="feedback-area">
+          <div>
+            <p class="feedback-title bold mb-8px">Kyuan</p>
+            <p class="feedback-text">服務很好，品質沒有任何問題，非常喜歡。</p>
+          </div>
+          <p class="text-grey">2020/10/31</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="home-form-area p-bt-80px bg-color-success">
+    <div class="contener-636px">
+      <h2 class="h2 text-primary text-center mb-48px">聯絡我們</h2>
+      <p class="mb-24px p-20px p-20px-s">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+      <form action="#">
+        <ul>
+          <li class="mb-16px">
+            <label class="mb-8px display-block" for="name">姓名</label>
+            <input class="bg-color-success" placeholder="陳小明"
+            type="text" id="name" name="name">
+          </li>
+          <li class="mb-16px">
+            <label class="mb-8px display-block" for="callnumber">聯絡電話</label>
+            <input placeholder="0912-345-678"
+            class="bg-color-success"
+            type="text" id="callnumber" name="callnumber">
+          </li>
+          <li class="mb-16px">
+            <label class="mb-8px display-block" for="email">電子郵件</label>
+            <input placeholder="example@email.com"
+            class="bg-color-success"
+            type="text" id="email" name="email">
+          </li>
+          <li class="mb-16px">
+            <label class="mb-8px display-block" for="feedbackFrom">意見反應</label>
+            <textarea placeholder="請輸入您的意見"
+            class="bg-color-success"
+            id="feedbackFrom" name="feedbackFrom" rows="8"></textarea>
+          </li>
+          <li class="checkbox-area">
+            <input type="checkbox" class="bg-color-success" id="consent">
+            <label for="consent" class="display-in-block"></label>
+            <span class="checkbox-text mouse-cur-def">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</span>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </section>
 </main>
-
-<div class="box"></div>
+<script src="./assets/js/index.js"></script>
 
     <footer class="bg-color-primary">
       <div class="contener">
         <div class="footer-list">
           <ul>
-            <li><a href="#">首頁</a></li>
+            <li class="pl-0"><a href="#">首頁</a></li>
             <li><a href="#">系列櫥窗</a></li>
             <li><a href="#">門市據點</a></li>
             <li><a href="#">部落格</a></li>
-            <li><a href="#">常見問題</a></li>
+            <li><a href="question.html">常見問題</a></li>
           </ul>
           <div class="imgs">
             <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic-social-fb.png?raw=true" alt="facebook">
             <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_ig.png?raw=true" alt="ig">
-            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_line.png?raw=true" alt="line">
+            <img class="mr-0"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_line.png?raw=true" alt="line">
           </div>
         </div>
-        <ul class="footer-connect">
-          <li>
-            <a href="#">
-              <span class="material-symbols-outlined icon-call">
-                call
-                </span>
-              <h5>0800-000-00</h5>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="material-symbols-outlined icon-email">
-                mail
-                </span>
-              <h5>glasses@business.co</h5>
-            </a>
-          </li>
-        </ul>
+        
+          <ul class="footer-connect">
+            <li class="mobile-footer-addImgs">
+              <a href="tel:+886-0800-000-00">
+                <span class="material-symbols-outlined icon-call">
+                  call
+                  </span>
+                  <p>0800-000-00</p>
+              </a>
+              <div class="imgs mobile-footer-addImgs-imgs">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic-social-fb.png?raw=true" alt="facebook">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_ig.png?raw=true" alt="ig">
+                <img class="mr-0"
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_line.png?raw=true" alt="line">
+              </div>
+            </li>
+            <li>
+              <a href="mailto:glasses@business.co">
+                <span class="material-symbols-outlined icon-email">
+                  mail
+                  </span>
+                  <p>glasses@business.co</p>
+              </a>
+            </li>
+          </ul>
+        
         <hr>
         <div class="footer-end">
           <p class="text-white">Copyright © 2020 Glasses.All rights reserved.</p>
           <ul>
             <li class="mb-8px"><a href="#">隱私權政策</a></li>
-            <li><a href="#">服務條款</a></li>
+            <li><a href="#" class="pr-0">服務條款</a></li>
           </ul>
         </div>
       </div>
